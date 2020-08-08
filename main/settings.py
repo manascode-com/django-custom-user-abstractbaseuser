@@ -3,9 +3,9 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = "tfyf35e2g3ydg263fe2bhdnwebhtr67t73232434g"
 
-DEBUG = os.environ.get('DEBUG')
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
